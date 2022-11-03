@@ -95,7 +95,7 @@ public class MainActivity extends AppCompatActivity{
 
     private void greetUser() {
         String firstName = getSharedPreferences(SHARED_PREF_USER_INFO, MODE_PRIVATE).getString(SHARED_PREF_USER_INFO_NAME, null);
-        //On recupere la valeur de la cle SHARED_PREF_USER_INFO_NAME ds le fichier XML. si cette valeur n'existe pas, par defaut elle vaut null
+        //On recupere la valeur de la cle SHARED_PREF_USER_INFO_NAME ds le fichier XML. si cette valeur n'existe pas, par defaut elle vaut nul
         int score = getSharedPreferences(SHARED_PREF_USER_INFO, MODE_PRIVATE).getInt(SHARED_PREF_USER_INFO_SCORE, -1);
 
         if (firstName != null) {
