@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TopQuiz</string>
+    <string name="welcome_back_with_score">Content de te revoir, %s!\nTon dernier score était %d, vas-tu faire mieux cette fois?</string>
+    <string name="welcome_back">Content de te revoir, %s!</string>
+</resources>
